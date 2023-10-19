@@ -1,0 +1,133 @@
+body{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    min-width: 25rem;
+    min-height: 40rem;
+}
+.container-2{
+    min-width: min-content;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    min-width: 22rem;
+    min-height: 34rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube-image{
+    max-height: 16rem;
+    max-width: 19.1875rem;
+    border-radius: 10px;
+    position: relative;
+}
+#cube-img{
+    height: 16rem;
+    width: 19.1875rem;
+    object-fit: cover; 
+    border-radius: 10px;   
+}
+#cube-img:hover{
+    cursor: pointer;
+}
+.cube-image:hover .alt-viewimg{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.alt-viewimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%,0.3);
+    opacity: 0;
+}
+.eye-overlay{
+    max-height: 16rem;
+    max-width: 19.1875rem;
+    border-radius: 10px;
+}
+
+#view-img{
+    height: 2rem;
+    width: 3rem;
+    object-fit: cover;
+    position: absolute;
+    top: 105px;
+    left: 130px;
+}
+
+.equi-para{
+    max-width: 19rem;
+}
+#equi-para1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+#equi-para1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+#equi-para2{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.favicons{
+    display: flex;
+    justify-content: space-between;
+    width: 19.1875rem;
+}
+.icon-1{
+    color: hsl(178, 100%, 50%);
+}
+.icon-2{
+    color: hsl(215, 51%, 70%);
+}
+.line{
+    max-width: 19.1875rem;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+.creation{
+    display: flex;
+    margin-top: 10px;
+    min-width: 19.1875rem;
+}
+.img-person{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#img-per{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.per-para1{
+    font-size: medium;
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.per-para2{
+    font-size: medium;
+    margin-left: 5px;
+    color: hsl(0, 0%, 100%);
+}
+.per-para2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
